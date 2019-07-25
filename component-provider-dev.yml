@@ -13,3 +13,6 @@ spring:
           password: '{cipher}AQA9t+JWq38ve1r35wQ+bOXX5FZZ1p4AhyXngXuTMdXHRlRQB3J3CtD/pluDjHUEYMek+3M+aSKlfJukf7oVZ8pVMm9qzuqm4CYAfgW/8FkBbT45b+cjCNOEc5umpVXp9Z+QqjmuIT9NAi/9dalz281AJCGAuIR8FRn1CTKBsPaQL/6Em5C/IjfBHElL7ctJRYs8A8SiA42+ttmYEcrk+jpxTQaz7m1OCKyi+LCLVh+6R/ab1Bh3QCpxPNUh88Zj023GcE7TzJnTLMuOtNEELbIMRMZAdZ5jtL87kuqLmYdYp7F97pMJ1VNI4xd43fOK8TWYqdJGsE+gi/wCxcZfgyYdQ5jtL9DkllgyMmC/joorFnSPT9ngYOp7u6FNuINrOwo='
           driver-class-name: com.mysql.jdbc.Driver
           url: '{cipher}AQCPKG9+11OF1/FGaP1lzc0QN9L50vHxfCjN93oTBo74ZEH4LDt7uqUAEt9cjiJAw6PC12EdLVZ9yAwYWn3mtLZNLxLZlsKlDys+u3UKY4wAgbKRHliJkGYcNML0zKxqmuier7uDmSHaeyGA1eUfi9zVqVstP0gq86b1mfZMdK9iLy0FlH/Wc0S0L43GO404CebRlYBmsa67juxQfcEDhpGKyVp3937O56MERSlXjhGiVEI6pspyCgrS8XcI7+tgTWAjtBgSyR81SBs/buPSefO+NYBbCiC+2mB8vgwKvyNpmZj8ALcNgzCrsS3j8SL/fTUiLoLiWEMKBh3hUkRJ6mFXq9cnxOCOq+tdMjyuCZF7Aa1AZGRKx6SEJg0AQCsyGt0nF2KYG6qVfiDjiyqiLfwktOvnJC0F++8ytAo57+5ZXglFZsXJ5Q1UwqGseBCk7sqq+hnosflRM7qKBhTYHGrtBv7mvK4k3Oo3w8aXuWJWHIEgbairi8/oKu5/fuW32EZfve4Hkb5n57yNtGLwTlvW0nMmPbxGe+hIFUqT9Y1KdQ=='
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*.xml
+  typeAliasesPackage: com.youxuepai.componentprovider.entity
