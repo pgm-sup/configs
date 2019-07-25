@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    dynamic:
+      primary: master
+      datasource:
+        master:
+          username: '{cipher}AQA5nTEHn0Z4jSZzcv2e4TLmlmUMmEuQL8iyuoLKhDMb/PVnEKFhbfvg3hHVjPWx0Ci4zBYYYX7sqjtxlTzpQgflfBcGF/OgCIVGPXoUE++hPOVM8mkA/IyL7UoInNBAY0nHyx42jmNt7M5eqqYypEYPmU0r8a/wOQRwBW3GZDyhzmmk8rKCGBxy8FfngRfkgg+vnTBKNnBkvKxq++Cd+OJWQuXYoxN4DD2DZU+3mlUTV04ABurCdBAdD0NeBlOB77kW7rsfszVnh1FGWIiK4/QaQqRIzwplGKbMlCX7xxV4aAXudAZTHGkYaNzsVpH94oFcj6HOsNjUez2RnRy+Wzy4pi+H1X3AUbS3EQcPiip38ojtEvQSKOp/R2ScrCwaz0s='
+          password: '{cipher}AQAKaJcsGHkp0vxtzYNPtQgwt7GSrGZ0/n+Nsaayn3eB+MFKb+6cy/lQcVS14xTx0Ma32y2EBZspqLlSiZcvhIDd12v5sGkaPHqbI9vMtv+E0p3HNEjpPY3dWQYuNbO7yGe0Unkc4yorGpHD6M58yC9//UzIDNobLsSB8oSsWsBm+4erO1dvaFmbxYsu9GvAEr7LTzTgzSDjcU+pqU4pkqrIPvlFY+3/DQsGb6EW0W264yw9xQKZ1G+vWvLOI4Nb0txZODbBpsvCW85g9QJ94wuT9iXFgiaPIZZD2MiDFmpDxGewUHjXpHBz8Fr3bSinLGHT+tKrlk7N6Y9zadrEryOY0Fwz8PlrdBV4t3k7+jkomtOU+EZU4b3SwU/6mDoWFUU='
+          driver-class-name: com.mysql.jdbc.Driver
+          url: '{cipher}AQBNAoag5ray9crbCZRPA5MC9+vbnX1lEXVzIvLJ9RAE8yRX5BcIaLXXmVkCimeZ2IGn0DE9Y9V7pYpNfZhHkug9hMHjG/z9mXJZFlfm0mHHTok3BFI0RsF8gDhSJ4afgWhhIY4b0QlBng4elQQMalQK69NOC/zTbuFfz2BQNkzm2Wcle3mFDmfzF+mzavydnhGXRk3HMULTV0G0Ad8A9yn02W4sUb5aUMzE/0iFYgkflZWDtj8862flffOTFDG2olDa0M6QNkhYomLf+CI0dWLSLfyu4Qbo+RnRW76J3Q88xPDIBbPDfoA9P5ScCl9NvU9oPrR6hJNdLtljV2kArB6JM1dWMKRbntTMN3IwxgwKlJIQpTKNj8ot10WOcY2wR4n0JJ/Awd5ig54Q3s8XwgoUAyTtBhnKcCrDr9Hqf7J8oGRvXZTHV3KZ1sPla85Cdam0LrtRXt08+YIY0Yyvm/nViD9njUQYdCmk0VBl3GTa5/OzuNbX5gfTyhcn7SJ8xN/PmWBNTkDVS9g3leLlF/8dXgkS+u9SGHrWfLnRZdMJkw=='
+        slave1:
+          username: '{cipher}AQBNpjCjVsxAsX1MHihMEQ5SQBThkQS7j0O3vKJ1f5Zd+tWrvGFhMgVX1NI2IZIRFu4AGk/rBjpCBiTWXdz/iuZUVd1gVRgcrOd+ysZv16IE4iwKXQlH4SucYOoveG7pyDfC1r9HUhT7PrvscvxN/9tWgJ+p5x/ud8lYL4DgsYYI5VrjaeHec4laXLfDPPkTIWtjYvrg+WB+agz2cl/rgmObUGb1iNNQ7/bj2vwJc2fz9SNXxK0D0LvlVFKlfSywjC7ABR6+aqoSONQMF/BFCcG2twgCL1u5UVlxLEUwuSjTqgVVgoii/JO+wxKfqO301p0a3UPFW2z7AcqA6dPq/IhrxW7qxViv21ns9L73ZlztP4I9dplQOKPFiSXYrV+GtRs='
+          password: '{cipher}AQA9t+JWq38ve1r35wQ+bOXX5FZZ1p4AhyXngXuTMdXHRlRQB3J3CtD/pluDjHUEYMek+3M+aSKlfJukf7oVZ8pVMm9qzuqm4CYAfgW/8FkBbT45b+cjCNOEc5umpVXp9Z+QqjmuIT9NAi/9dalz281AJCGAuIR8FRn1CTKBsPaQL/6Em5C/IjfBHElL7ctJRYs8A8SiA42+ttmYEcrk+jpxTQaz7m1OCKyi+LCLVh+6R/ab1Bh3QCpxPNUh88Zj023GcE7TzJnTLMuOtNEELbIMRMZAdZ5jtL87kuqLmYdYp7F97pMJ1VNI4xd43fOK8TWYqdJGsE+gi/wCxcZfgyYdQ5jtL9DkllgyMmC/joorFnSPT9ngYOp7u6FNuINrOwo='
+          driver-class-name: com.mysql.jdbc.Driver
+          url: '{cipher}AQCPKG9+11OF1/FGaP1lzc0QN9L50vHxfCjN93oTBo74ZEH4LDt7uqUAEt9cjiJAw6PC12EdLVZ9yAwYWn3mtLZNLxLZlsKlDys+u3UKY4wAgbKRHliJkGYcNML0zKxqmuier7uDmSHaeyGA1eUfi9zVqVstP0gq86b1mfZMdK9iLy0FlH/Wc0S0L43GO404CebRlYBmsa67juxQfcEDhpGKyVp3937O56MERSlXjhGiVEI6pspyCgrS8XcI7+tgTWAjtBgSyR81SBs/buPSefO+NYBbCiC+2mB8vgwKvyNpmZj8ALcNgzCrsS3j8SL/fTUiLoLiWEMKBh3hUkRJ6mFXq9cnxOCOq+tdMjyuCZF7Aa1AZGRKx6SEJg0AQCsyGt0nF2KYG6qVfiDjiyqiLfwktOvnJC0F++8ytAo57+5ZXglFZsXJ5Q1UwqGseBCk7sqq+hnosflRM7qKBhTYHGrtBv7mvK4k3Oo3w8aXuWJWHIEgbairi8/oKu5/fuW32EZfve4Hkb5n57yNtGLwTlvW0nMmPbxGe+hIFUqT9Y1KdQ=='
