@@ -5,6 +5,6 @@ spring:
         - id: componentconsumer
           uri: lb://component-comsumer
           predicates:
-          - Path: /productapi/**
+          - Path=/productapi/**
           filters:
             - StripPrefix=1
